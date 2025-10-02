@@ -11,3 +11,8 @@ The case covers:
 
 ## Objective
 Showcase technical and procedural expertise in MFA issue recovery, aligned with real SME practices at AWS.
+---
+
+🧑‍💻 Created by: **Cloudbynea**  
+🌐 GitHub: [https://github.com/cloudbynea](https://github.com/cloudbynea)  
+✉️ Contact: cloudbynea@gmail.com  
