@@ -1,0 +1,251 @@
+# CSM_CONTEXT.md for cloud-incident-mfa-recovery
+## Why a Customer Success Manager Should Read This
+
+**TL;DR:** This case shows how to transform an incident from a "support emergency" 
+into an "operating model conversation." That's the difference between keeping a customer 
+during crisis and retaining them long-term.
+
+---
+
+## The CSM Problem This Solves
+
+You have a customer call. They're in crisis.
+
+> "We can't access our AWS account. Our IT contractor left, and MFA was on their personal phone. 
+> We're locked out. Nothing works."
+
+Your first instinct: Fix it fast. Restore access. Solve the emergency.
+
+**But here's the real CSM problem:** If you just fix the access and move on, you've solved 
+the symptom, not the disease.
+
+Six months later, when another employee leaves, the same thing happens. Your customer loses 
+trust in your platform. They start evaluating alternatives. At renewal, they mention: 
+"We had that incident where we got locked out. We're not confident the platform will 
+protect us when things go wrong."
+
+**That's churn.**
+
+This case teaches you how to prevent it—not by being faster at recovery, but by using 
+the incident to build a better operating model that stops it from recurring.
+
+---
+
+## What This Case Teaches
+
+### 1. Diagnostic Methodology: The Difference Between "What Happened" and "Why It Happened"
+
+Most support teams answer: "What happened? MFA device unavailable."  
+Most customers think: "The problem is MFA on a personal device."
+
+**What a CSM sees:** Neither of these answers the real question.
+
+The real question is: **Why did this situation exist in the first place?**
+
+And the real answer is: **There was no process.**
+
+This case walks through the diagnostic questions:
+- Why was MFA tied to a contractor's personal device? (Decision made in a moment, never reviewed)
+- Why wasn't there an offboarding checklist? (No one owned it)
+- Why wasn't this caught during access reviews? (No continuous audit)
+- Why did recovery require AWS Support escalation? (No internal recovery procedures documented)
+
+**CSM Application:** When a customer has an incident, don't just restore service. Ask: 
+"What process failure created this situation?" That's where the real work is.
+
+---
+
+### 2. Prevention Mindset: Incidents Are Signals, Not Surprises
+
+Here's the dangerous thinking: "We had an incident. Support fixed it. We're good now."
+
+Here's the CSM thinking: "We had an incident. That tells us something about our operating 
+model. What are we going to change so this never happens again?"
+
+Most customers don't think this way naturally. They think: "Problem → Fix → Done."
+
+Your job is to help them think: "Problem → Root Cause → Process Change → Prevention."
+
+This case documents exactly that transition. It shows:
+- How to identify the systemic failure (not just the immediate cause)
+- How to propose remediation that prevents recurrence (governance, not just recovery)
+- How to help the customer *see* the value of prevention work (it's easy to say "we're fine now" until it happens again)
+
+**CSM Application:** After every incident, propose a "post-incident operating model review." 
+Not to blame the customer. To build something better together. Customers who go through 
+this process with you develop deeper trust because they've *experienced* your commitment 
+to their long-term success, not just your ability to fix emergencies.
+
+---
+
+### 3. Customer Trust: How Incidents Become Relationship Turning Points
+
+Here's what usually happens:
+
+1. Customer has incident
+2. Support team fixes it
+3. Everything goes back to normal
+4. Customer's confidence in the platform is slightly lower than before
+
+Here's what *should* happen:
+
+1. Customer has incident
+2. Support team fixes it *and* diagnoses root cause
+3. CSM helps customer build prevention framework
+4. Customer's confidence in the platform is *higher* than before the incident
+5. Renewal conversation is stronger because customer has proof that the vendor stands by them
+
+This case shows that second path.
+
+The customer didn't just get access restored—they got an operating model. They went from 
+"we had a crisis" to "we have a process that prevents this." That changes the relationship.
+
+**CSM Application:** Use incidents as opportunities to deepen customer relationships, not 
+just to survive them. When you help a customer turn a failure into a stronger operating 
+model, they don't want to leave. They want to stay because you've proven you're invested 
+in their long-term success.
+
+---
+
+## Core CSM Competencies This Case Demonstrates
+
+| CSM Competency | What This Case Shows | How to Apply It |
+|--|--|--|
+| **Technical Credibility** | You understand IAM, MFA, access management, and AWS recovery procedures well enough to diagnose *why* the incident happened | Customers trust CSMs who don't panic during crises and can explain what went wrong. If you can do that, they'll listen when you propose prevention work. |
+| **Adoption Risk Identification** | You spot when infrastructure decisions create risk (MFA on personal device = single point of failure) and flag them *before* they become incidents | Don't wait for incidents to happen. In your customer reviews, ask: "What would break our business if it failed?" Then audit whether they're protected from that. |
+| **Retention & Expansion Logic** | You understand that customers who've had incidents are either more likely to churn (if the vendor abandons them) or more likely to expand (if the vendor helps them improve) | The incident is a fork in the road. Your response determines which path the customer takes. |
+| **Operating Rhythm & Governance** | You structure customer engagement so that incidents are caught early (access reviews, change management) or prevented entirely (governance processes) | Build a calendar where you're continuously checking for hidden risks. Don't wait for the customer to discover them. |
+| **Stakeholder Alignment** | You translate the technical crisis (MFA unavailable) into business language (access control failure, regulatory exposure, operational risk) so that different stakeholders understand why prevention matters | In the remediation conversation, speak to the CIO about operational resilience, the CFO about compliance risk, and the CEO about customer trust. |
+
+---
+
+## How to Read This Case
+
+### For Learning the Methodology
+1. **Start with README.md** — Understand the incident setup and scope
+2. **Read solution_steps.md** — See how the technical recovery works
+3. **Study root_cause_analysis.md** — Understand the diagnostic methodology (this is where CSM thinking lives)
+4. **Review tools_used.md** — Understand the technical tools, but the methodology is more important than the tools
+
+### For Learning the CSM Application
+1. **Skim the technical detail** (solution_steps.md) — You don't need to execute this personally, but you need to understand what was broken
+2. **Deep-dive the RCA** (root_cause_analysis.md) — This is the CSM work: diagnosing why the incident happened, not just how to fix it
+3. **Ask yourself:** "What process failures does our customer have that could create the same situation?"
+4. **Build a conversation:** "Here's an incident case I studied. It made me think about your offboarding process. Can we audit that together?"
+
+---
+
+## What This Case Teaches About Different Incident Scenarios
+
+This case is specifically about MFA access loss. But the methodology applies to:
+
+- **Security incidents:** Not just remediate the compromise, build prevention and detection
+- **Performance incidents:** Not just optimize performance, understand why it degraded and build alerting
+- **Cost incidents:** Not just reduce spend, understand why costs grew and build governance
+- **Compliance incidents:** Not just fix the violation, understand why the control failed and strengthen it
+
+**The pattern is always the same:** 
+Incident → Root Cause Analysis → Process Improvement → Prevention Framework → Stronger Customer Relationship
+
+---
+
+## Common CSM Mistakes (What NOT to Do)
+
+### Don't use this case to scare customers
+"You have MFA on a personal device? That's dangerous. Look at this case study." 
+This approach creates defensiveness, not openness.
+
+Instead: "I studied this case. It made me think we should audit your access controls 
+together. Not because you're doing anything wrong, but because this is where real risk lives."
+
+### Don't present the RCA without proposing solutions
+"Here's why this happened" feels like blame.  
+"Here's why this happened, and here's how we prevent it together" feels like partnership.
+
+Always lead with the path forward.
+
+###  Don't assume your customer hasn't thought about this
+Many customers have already realized the gap. They might not have the time/skills to fix it, 
+but they know the problem exists. Don't position yourself as the hero who discovered it. 
+Position yourself as the partner who helps them solve it.
+
+### Don't make this about your platform
+"This is a risk with AWS" or "this is an identity management problem."  
+This is actually an operating model problem. Your role is helping the customer build better 
+operating models, regardless of which platform they're using.
+
+---
+
+## Questions to Ask Your Customers (Based on This Case)
+
+Use this case to structure a conversation:
+
+1. **"What would we do if the person who owns your MFA recovery procedures is unavailable?"**  
+   (This surfaces single-point-of-failure risks)
+
+2. **"When someone leaves your organization, do we have a documented process for validating that their credentials have been removed?"**  
+   (This surfaces process gaps)
+
+3. **"How often do you audit access to make sure permissions match current job roles?"**  
+   (This surfaces governance gaps)
+
+4. **"If you had an access emergency tomorrow, who would you call first—your internal team or our support team?"**  
+   (This surfaces whether the customer has internal capabilities)
+
+5. **"Have you documented the recovery procedures for scenarios like this?"**  
+   (This surfaces documentation gaps)
+
+If the answer to any of these is "we haven't thought about that" or "we're not sure," 
+you've found adoption/risk territory. That's where CSM work happens.
+
+---
+
+## How This Connects to Your Customer Lifecycle
+
+### During Onboarding (Months 1–3)
+Preventive work: "Let's build your offboarding checklist for IAM/MFA. When someone leaves, 
+here's what we validate."
+
+### During Adoption (Months 4–9)
+Continuous improvement: "Let's audit your access. Are there roles with more permissions 
+than they need? Are there accounts that should have MFA but don't?"
+
+### During an Incident (Whenever)
+Relationship deepening: "We fixed the immediate problem. Let's use this as a learning 
+opportunity. Here's what this tells us about your operating model."
+
+### During Retention/Renewal (Month 12+)
+Trust signal: "We've worked together on incidents. You've built processes that prevent 
+recurrence. That's the kind of partnership that makes sense to renew."
+
+---
+
+## The Bigger Picture: Why This Matters for Your CSM Role
+
+Most CSMs are measured on: retention, adoption, NRR.
+
+Most customers think: "CSM = person who responds to my problems fast."
+
+But the CSMs who drive the highest retention and expansion are those who help customers 
+think differently about their operating model.
+
+This case is evidence that you do that.
+
+When you show this to a hiring manager, you're saying: "I don't just respond to crises. 
+I help customers prevent them. I use incidents as opportunities to build stronger 
+relationships and deeper trust."
+
+That's CSM work at its best.
+
+---
+
+## One Final Thing
+
+This case documents an incident that *happened* (based on real experience). But the real 
+value is in helping your customers prevent their version of it.
+
+You won't be able to prevent all incidents. But you can help customers build operating 
+models where incidents are less likely, recovery is faster, and the relationship actually 
+gets stronger through the process.
+
+That's the CSM mindset this case teaches.
